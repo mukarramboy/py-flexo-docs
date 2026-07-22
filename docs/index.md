@@ -1,0 +1,34 @@
+# PyFlexo Documentation
+
+PyFlexo is a small WSGI web framework with explicit routing, template rendering, static file serving, middleware hooks, exception handling, and a lightweight SQLite ORM.
+
+This documentation covers the public API that is implemented in the repository. It does not describe planned features or framework conventions that are not yet present in the codebase.
+
+> **Note**
+> Package-level imports are not re-exported from `py_flexo.__init__`. Import objects from the module that defines them.
+
+Example imports:
+
+```python
+from py_flexo.app import PyFlexoApp
+from py_flexo.orm import Database, Table, Column, ForeignKey
+from py_flexo.middleware import Middleware
+```
+
+## Documentation Map
+
+- [Getting Started](getting-started.md)
+- [Core Concepts](core-concepts.md)
+- [ORM](orm/README.md)
+- [Deployment](deployment.md)
+- [API Reference](api-reference.md)
+- [Changelog](changelog.md)
+
+## What to read first
+
+If you are new to the framework, start with [Getting Started](getting-started.md). If you are already building an application, move to [Core Concepts](core-concepts.md) and then the [API Reference](api-reference.md).
+
+## Related Documentation
+
+- [Project README](../README.md)
+- [ORM documentation](orm/README.md)

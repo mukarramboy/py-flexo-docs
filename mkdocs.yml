@@ -6,7 +6,7 @@ repo_name: PyFlexo
 repo_url: https://github.com/mukarramboy/py-flexo-docs
 edit_uri: ''
 
-docs_dir: .
+docs_dir: docs
 site_dir: site
 
 theme:
@@ -38,13 +38,13 @@ markdown_extensions:
       alternate_style: true
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Getting Started:
-      - Getting Started: docs/getting-started.md
+    - Getting Started: getting-started.md
   - Concepts:
-      - Core Concepts: docs/core-concepts.md
+    - Core Concepts: core-concepts.md
   - Features:
-      - ORM: docs/orm/README.md
-  - API Reference: docs/api-reference.md
-  - Deployment: docs/deployment.md
-  - Changelog: docs/changelog.md
+    - ORM: orm/README.md
+  - API Reference: api-reference.md
+  - Deployment: deployment.md
+  - Changelog: changelog.md

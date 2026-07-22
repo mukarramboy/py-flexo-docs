@@ -30,5 +30,4 @@ If you are new to the framework, start with [Getting Started](docs/getting-start
 
 ## Related Documentation
 
-- [Project README](../README.md)
 - [ORM documentation](docs/orm/README.md)

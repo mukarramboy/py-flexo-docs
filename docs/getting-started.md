@@ -51,11 +51,6 @@ app = PyFlexoApp()
 @app.route("/")
 def home(request, response):
     response.text = "Hello, PyFlexo!"
-
-
-client = app.test_session()
-response = client.get("http://testserver/")
-print(response.text)
 ```
 
 > **Tip**
